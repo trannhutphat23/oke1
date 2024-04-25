@@ -1,0 +1,76 @@
+h1{
+    font-size: inherit;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.date{
+    font-size: 18px;
+    font-weight: 300;
+    color: grey;
+}
+
+p img {
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.wrapper p {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 10px;
+    b {
+        font-weight: 500;
+    }
+}
+
+.wrapper div .content {
+    text-align: left;
+}
+
+.wrapper div {
+    margin: 0px 100px;
+}
+details {
+    cursor: pointer;
+}
+
+.borderPara {
+    border: 1px solid grey;
+    padding: 5px;
+    color: black;
+    font-size: 18px;
+}
+.link {
+    color: blue;
+    text-decoration: underline;
+}
+strong {
+    color: black;
+    font-size: 25px;
+}
+.title {
+    font-size: 20px;
+    font-weight: 300;
+}
+.tagWeb {
+    font-size: 20px;
+}
+.nikeSize {
+    color: blue;
+    text-decoration: underline;
+    font-size: 20px;
+}

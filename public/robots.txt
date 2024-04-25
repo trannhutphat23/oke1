@@ -1,0 +1,13 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /trang-chu
+Allow: /tin-tuc
+Allow: /shop-giay-secondhand-blue-ribbon
+Allow: /gio-hang
+Allow: /tim-kiem
+Allow: /thanh-toan
+Allow: /tai-khoan
+Allow: /dang-nhap
+Allow: /dang-ky
+Allow: /giay
+Disallow:

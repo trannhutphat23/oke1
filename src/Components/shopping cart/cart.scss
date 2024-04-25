@@ -1,0 +1,131 @@
+.cart-container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  @media screen and (max-width: 1100px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cart {
+    width: 55%;
+    .title {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      h3 {
+        width: 95%;
+        display: flex;
+        justify-content: flex-start;
+        font-family: "Oswald", sans-serif;
+        font-weight: 500;
+        font-size: 30px;
+        margin: 0;
+        margin-bottom: 10px;
+      }
+      p {
+        margin: 0;
+        font-size: 20px;
+        font-weight: 500;
+        margin-right: 10px;
+        cursor: pointer;
+        &:hover {
+          color: red;
+        }
+      }
+    }
+    .cart-main {
+      height: 115vh;
+      overflow-y: auto;
+      padding-right: 10px;
+    }
+
+    @media screen and (max-width: 1100px) {
+      width: 80%;
+    }
+  }
+  .summary {
+    width: 35%;
+    @media screen and (max-width: 1100px) {
+      width: 80%;
+      margin-top: 50px;
+    }
+    h3 {
+      width: 95%;
+      display: flex;
+      justify-content: flex-start;
+      font-family: "Oswald", sans-serif;
+      font-weight: 500;
+      font-size: 30px;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+    .summary-main {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      .summary-section {
+        width: 100%;
+        border-bottom: 1px solid #9e9ea0;
+        margin-bottom: 30px;
+        .summary-content {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          p {
+            padding: 0;
+            margin: 0;
+            font-family: "Oswald", sans-serif;
+            font-size: 20px;
+            font-weight: 300;
+            margin-bottom: 10px;
+          }
+        }
+      }
+      .alert-text {
+        width: 100%;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+        color: red;
+      }
+      .summary-button {
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color: #111;
+        border: 1px solid #111;
+        height: 70px;
+        width: 70%;
+        margin-top: 20px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.2s;
+        p {
+          font-weight: 500;
+          font-size: 20px;
+          color: white;
+        }
+        &:hover {
+          background-color: white;
+          p {
+            color: #111;
+          }
+        }
+      }
+    }
+  }
+}

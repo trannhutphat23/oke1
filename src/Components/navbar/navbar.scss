@@ -1,0 +1,272 @@
+.navbar-container {
+  .header {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    .login {
+      width: 150px;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      p {
+        font-family: "Oswald", sans-serif;
+        font-weight: 300;
+        cursor: pointer;
+        transition: 0.2s;
+        &:hover {
+          color: #9e9ea0;
+        }
+      }
+    }
+    .is-login {
+      width: auto;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      transition: 0.2s;
+      cursor: pointer;
+      &:hover {
+        color: #9e9ea0;
+      }
+      p {
+        font-family: "Oswald", sans-serif;
+        font-weight: 300;
+        margin-right: 10px;
+      }
+    }
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #9e9ea0;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    .ok {
+      height: 80px;
+      width: 80px;
+      margin-left: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .logo {
+        height: 70px;
+        width: 70px;
+      }
+    }
+    .nav-section {
+      width: 85%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      @media screen and (max-width: 800px) {
+        display: none;
+      }
+      .nav-selection {
+        font-family: "Oswald", sans-serif;
+        width: 65%;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        li {
+          cursor: pointer;
+          font-size: 18px;
+          border-bottom: 2px solid white;
+          transition: 0.2s;
+          &:hover {
+            border-bottom: 2px solid black;
+          }
+        }
+      }
+      .nav-search {
+        width: 20%;
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .search-icon {
+          position: absolute;
+          font-size: 20px;
+          right: 10px;
+          cursor: pointer;
+          &:hover {
+            color: red;
+          }
+        }
+        input {
+          width: 100%;
+          height: 30px;
+          border: none;
+          outline: none;
+          text-indent: 10px;
+          border-radius: 5px;
+          background-color: #f5f5f5;
+        }
+      }
+      .nav-other {
+        width: 15%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .other-icon {
+          cursor: pointer;
+          transition: 0.2s;
+          font-size: 22px;
+          &:hover {
+            color: #9e9ea0;
+          }
+        }
+      }
+    }
+    .bar-icon {
+      font-size: 25px;
+      padding-right: 30px;
+      cursor: pointer;
+      display: none;
+      @media screen and (max-width: 800px) {
+        display: block;
+      }
+    }
+  }
+  .navbar-hover {
+    z-index: 4;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #111;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    li {
+      border-bottom: 2px solid #f5f5f5;
+      transition: 0.2s;
+      cursor: pointer;
+      font-size: 20px;
+      &:hover {
+        border-bottom: 2px solid black;
+      }
+      p {
+        padding: 0;
+        margin: 0;
+        font-weight: 300;
+        font-size: 18px;
+      }
+    }
+  }
+  .navbar-bar {
+    z-index: 4;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #f5f5f5;
+    border-bottom: 2px solid #111;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 30px;
+    li {
+      width: 85%;
+      border: 1px solid #111;
+      background: white;
+      height: 50px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+      p {
+        margin: 0;
+      }
+      &:first-child {
+        border: 1px solid #9e9ea0;
+        padding: 10px 0px;
+        box-shadow: 3px 3px 2px 3px rgba($color: #000000, $alpha: 0.3);
+      }
+      &:not(:first-child) {
+        cursor: pointer;
+        box-shadow: 3px 3px 2px 2px rgba($color: #000000, $alpha: 0.7);
+        &:hover {
+          background-color: #111;
+          p {
+            color: white;
+          }
+        }
+      }
+    }
+    .bar-container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      .nav-search-bar {
+        width: 50%;
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .search-icon {
+          position: absolute;
+          font-size: 20px;
+          right: 10px;
+          cursor: pointer;
+          &:hover {
+            color: red;
+          }
+        }
+        input {
+          width: 100%;
+          height: 30px;
+          outline: none;
+          text-indent: 10px;
+          border-radius: 5px;
+          background-color: #f5f5f5;
+          border: 1px solid #111;
+        }
+      }
+      .nav-other {
+        width: 30%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .other-icon {
+          cursor: pointer;
+          transition: 0.2s;
+          font-size: 22px;
+          &:hover {
+            color: #9e9ea0;
+          }
+        }
+      }
+    }
+  }
+}

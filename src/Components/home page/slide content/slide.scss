@@ -1,0 +1,18 @@
+.slide-container {
+  height: 550px;
+  width: 100%;
+  margin-top: 100px;
+  h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: start;
+    padding-left: 50px;
+    margin: 0;
+  }
+  .silde-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+}

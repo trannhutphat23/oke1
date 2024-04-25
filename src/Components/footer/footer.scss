@@ -1,0 +1,38 @@
+.Footer-container {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #111111;
+  ul {
+    padding-top: 50px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    li {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      p {
+        color: white;
+        text-align: start;
+        cursor: pointer;
+        font-family: "Oswald", sans-serif;
+        font-weight: 300;
+        border-bottom: 1px solid #111111;
+        transition: 0.2s;
+        &:hover {
+          border-bottom: 1px solid white;
+        }
+      }
+      h3 {
+        color: white;
+        font-family: "Oswald", sans-serif;
+        font-weight: 500;
+        cursor: pointer;
+      }
+    }
+  }
+}
