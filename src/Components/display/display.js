@@ -36,7 +36,6 @@ const Display = ({ sortBtn }) => {
                 setNike(tempNike)
                 setSport(tempSport)
                 setProducts(resJsonProducts.products)
-                console.log(resJsonProducts.products)
             })
     }
 

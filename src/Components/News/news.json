@@ -2,21 +2,29 @@
     {
         "image" : "https://xephangdoanhnghiep.com/wp-content/uploads/2023/05/shop-giay-2hand-tphcm-7-768x576.jpg",
         "title" : "Có nên cân nhắc mua giày 2hand không? Những chú ý khi chọn giày cũ hàng hiệu chất lượng",
-        "content" : "./NewContent/test/text.txt"
+        "content" : "./NewContent/test/text.txt",
+        "filename": "what2hand/2hand.md",
+        "modifiedLink": "co-nen-can-nhan-mua-giay-2hand-khong-Nhung-chu-y-khi-chon-giay-cu-hang-hieu-chat-luong"
     },
     {
         "image" : "https://img.buzzfeed.com/buzzfeed-static/static/2024-01/2/19/asset/4d70ac765ef0/sub-buzz-18449-1704222309-1.jpg?downsize=700:*&output-format=auto&output-quality=auto",
         "title" : "Chinh phục mọi bước chân , tạo nên phong cách riêng của bạn với top 9 mẫu giày Nike độc đáo nhất năm 2024",
-        "content" : "./NewContent/test/text.txt"
+        "content" : "./NewContent/test/text.txt",
+        "filename": "newShoes/new-shoes.md",
+        "modifiedLink": "chinh-phuc-moi-buoc-chan-tao-nen-phong-cach-rieng-cua-ban-voi-top-9-mau-giay-nike-doc-dao-nhat-nam-2024"
     },
     {
         "image" : "https://scontent.fsgn5-15.fna.fbcdn.net/v/t39.30808-6/398233910_647114904281692_5363825474447877118_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFdrKuK03X-KkE03tlj3vdEQzJgldhpakpDMmCV2GlqSsm9ye6bKWjAaVnb5wPTvRV1nIFo8RnC3F-aaPcDxHSj&_nc_ohc=KrpxkS_DBvUAb7CW0Ac&_nc_ht=scontent.fsgn5-15.fna&oh=00_AfD2xtcP-PxRqY6kxI4QflK3BL8Ew6BeAoN7_rkaw4todw&oe=66203512",
         "title" : "Top 7 trang cửa hàng 2hand chuyên giày cũ chính hãng",
-        "content" : "./NewContent/test/text.txt"
+        "content" : "./NewContent/test/text.txt",
+        "filename": "shop2hand/shop-2-hand.md",
+        "modifiedLink": "top-7-trang-cua-hang-2hand-chuyen-giay-cu-chinh-hang"
     },
     {
         "image" : "https://www.thuongdo.com/sites/default/files/u165605/cach-phan-biet-giay-nike-chinh-hang-3.jpg",
         "title" : "Cách phân biệt giày Nike chính hãng",
-        "content" : "./NewContent/test/text.txt"
+        "content" : "./NewContent/test/text.txt",
+        "filename": "nikeRealFake/nike-real-fake.md",
+        "modifiedLink": "cach-phan-biet-giay-nike-chinh-hang"
     }
 ]
