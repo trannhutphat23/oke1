@@ -7,41 +7,71 @@ import Item from '../item/item';
 import { AppContext } from '../../Context/AppContext';
 import DisplaySide from './display-side';
 
+
 const Display = ({ sortBtn }) => {
-    const { jordan, nike, sport } = useContext(AppContext)
+
+    const {products,  jordan, nike, sport, setJordan, setNike, setSport, setProducts } = useContext(AppContext)
     const params = useParams()
     const navigate = useNavigate()
 
-    const [products, setProducts] = useState([])
+    const [productss, setProductss] = useState([])
 
     if (params.id === 'nikes') params.id = 'Explore Nike'
 
+    function fetchData(){
+        fetch(`https://restapi.blueribbon.name.vn/api/product`)
+            .then((response) => response.json())
+            .then(resJsonProducts => {
+                var tempJordan = []
+                var tempNike = []
+                var tempSport = []
+                for (let index = 0; index < resJsonProducts.products.length; index++) {
+                    const types = resJsonProducts.products[index].type.name
+                    const IsNike = types.includes('Nike')
+                    if (types === 'Jordan') tempJordan.push(resJsonProducts.products[index])
+                    else if (IsNike) tempNike.push(resJsonProducts.products[index])
+                    else tempSport.push(resJsonProducts.products[index])
+                }
+                setJordan(tempJordan)
+                setNike(tempNike)
+                setSport(tempSport)
+                setProducts(resJsonProducts.products)
+                console.log(resJsonProducts.products)
+            })
+    }
+
     useEffect(() => {
-        setProducts([])
-        if (params.id === 'jordan') setProducts(jordan)
-        if (params.id === 'Explore Nike') setProducts(nike)
-        if (params.id === 'sport') setProducts(sport)
-    }, [params.id])
+        fetchData()
+        
+    }, [])
+
+    useEffect(() => {
+        setProductss([])
+        if (params.id === 'jordan') setProductss(jordan)
+        if (params.id === 'Explore Nike') setProductss(nike)
+        if (params.id === 'sport') setProductss(sport)
+    }, [])
 
     useEffect(() => {
         switch (sortBtn) {
             case 'Low to High':
                 var temp = products.sort((a, b) => a.price - b.price)
                 console.log(products)
-                setProducts(temp)
+                setProductss(temp)
                 navigate(params)
                 break;
             case 'High to Low':
                 var temp = products.sort((a, b) => b.price - a.price)
                 console.log(products)
-                setProducts(temp)
+                setProductss(temp)
                 navigate(params)
                 break;
             case 'Sort By': {
-                if (params.id === 'jordan') setProducts(jordan)
-                if (params.id === 'Explore Nike') setProducts(nike)
-                if (params.id === 'sport') setProducts(sport)
+                if (params.id === 'jordan') setProductss(jordan)
+                if (params.id === 'Explore Nike') setProductss(nike)
+                if (params.id === 'sport') setProductss(sport)
                 navigate(params)
+                break;
             }
 
             default:
@@ -56,7 +86,6 @@ const Display = ({ sortBtn }) => {
     };
 
     return (
-
         <div className="display-main">
             {params.cate ? (
                 products.map((value, index) => {

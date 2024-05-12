@@ -35,8 +35,8 @@ const GioiThieu = () => {
                     <b>Email:</b> blueribbonshop.contact@gmail.com <br />
                     <b>Số điện thoại liên hệ:</b> 0324568446 <br />
                     <b>Địa chỉ:</b> Đường Hàn Thuyên, khu phố 6 P, Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam, Ho Chi Minh City, Vietnam <br />
-                    <b>Website:</b> https://blueribbon.name.vn <br />
-                    <b>Fanpage:</b> https://www.facebook.com/blue.ribbon.secondhand
+                    <b>Website:</b> <a href="https://blueribbon.name.vn" className='hover:text-blue-700'>https://blueribbon.name.vn</a> <br />
+                    <b>Fanpage:</b> <a href="https://www.facebook.com/blue.ribbon.secondhand" className='hover:text-blue-700'>https://www.facebook.com/blue.ribbon.secondhand</a>
                 </p>
 
 

@@ -58,7 +58,6 @@ export const AppProvider = ({ children }) => {
                 setSport(tempSport)
                 setProducts(resJsonProducts.products)
             })
-
     }, [])
 
 
@@ -71,7 +70,8 @@ export const AppProvider = ({ children }) => {
         nikeSide, sportSide,
         customer, setCustomer,
         jordan, nike, sport,
-        newInfo, setNewInfo
+        newInfo, setNewInfo,
+        setJordan, setNike, setSport, setProducts
     }}>
         {children}
     </AppContext.Provider>
