@@ -16,6 +16,10 @@ Những đôi giày có thương hiệu uy tin như Nike,… của các shop gi�
 
 <br/>
 
+![Blue-Ribbon-Secondhand](https://scontent.fhan3-2.fna.fbcdn.net/v/t39.30808-6/433130323_122104447100251946_2485803513341137854_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFj4JPEKCs-sfLMG8-Mc_OQUg_zDJXIH5JSD_MMlcgfkqOnt2HVwnupVeszfIhjGMYsnU-8SEwW0yxGNf0QQ9z_&_nc_ohc=oCSD_UlwbY4Q7kNvgHlYeml&_nc_ht=scontent.fhan3-2.fna&oh=00_AYCikTZcfDJSadT_A5Ica4Qc7N1naqAZbQgnc3oHlS4y6g&oe=6647D36F)
+
+<br/>
+
 Blue Ribbon là shop giày cũ chính hãng dạo gần đây đang trở nên ngày càng “hot” trong giới dân nghiện giày. Dù mới chỉ khai trương gần đây, cửa hàng đã luôn được người dùng khen ngợi và phản hồi tích cực.
 
 <br/>
@@ -60,7 +64,7 @@ Ngay lúc này, Blue Ribbon đang có các chương trình khuyến mãi hấp d
 
 <br/>
 
-![Tiem-giay-cu-sai-gon](https://scontent.fsgn5-15.fna.fbcdn.net/v/t39.30808-6/398233910_647114904281692_5363825474447877118_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFdrKuK03X-KkE03tlj3vdEQzJgldhpakpDMmCV2GlqSsm9ye6bKWjAaVnb5wPTvRV1nIFo8RnC3F-aaPcDxHSj&_nc_ohc=KrpxkS_DBvUAb7CW0Ac&_nc_ht=scontent.fsgn5-15.fna&oh=00_AfD2xtcP-PxRqY6kxI4QflK3BL8Ew6BeAoN7_rkaw4todw&oe=66203512)
+![Tiem-giay-cu-sai-gon](https://cdn.tgdd.vn/Files/2021/12/23/1406245/6-shop-giay-2hand-gia-re-va-uy-tin-nhat-sai-gon-202112230416401927.jpg)
 
 <br/>
 
